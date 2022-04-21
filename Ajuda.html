@@ -2,20 +2,33 @@
 <html lang="pt-ao">
 <head>    
     <link rel="stylesheet" href="estilo/home.css">
-    <link rel="stylesheet" href="assets/vendor/bootstrap-icons/bootstrap-icons.css">
     <link rel="stylesheet" href="estilo/contactos.css">
+    <link rel="stylesheet" href="assets/vendor/bootstrap-icons/bootstrap-icons.css">
     <link rel="stylesheet"  href="estilo/rodape.css">
     <link rel="icon" href="logo-pequeno.png">
     <style>
+    .azul{
+        color: blueviolet;
+    }
+        video.video_infor{
+        width:98%;
+        border: 1px solid blueviolet;
+        background: white;
+        padding: 2px;
+    }
+    .final-direito p{
+        padding: 0px;
+        margin: 2px;
+    }
     </style>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contactos</title>
+    <title>Nobre-Ajuda</title>
 </head> 
     <body onload="inicia()">
     <header class="minha-navbar navbar-toggler">
-        <article class="preta">
+                <article class="preta">
             <div class="preta zona-preta zona-esquerda">
                 <ol class="links-preto fundo" >
                     <li><a href="#">nobrefashion@gmail.com</a></li>
@@ -40,33 +53,27 @@
                    <button class="desfazer" onclick="eliminar()">x</button>
                     <li> <a href="index.html">Home</a></li>
                     <li> <a href="produtos.html">Produtos</a></li>
-                    <li> <a href="contactos.html" style="color:#30bce6">Contactos</a></li>
+                    <li> <a href="contactos.html">Contactos</a></li>
                     <li> <a href="sobre.html" class="barramento barramento-links">Sobre</a></li>
-                    <li> <a href="Ajuda.html" class="barramento-links ">Ajuda</a></li>
+                    <li> <a href="Ajuda.html" class="barramento-links" style="color:#30bce6">Ajuda</a></li>
                 </ul>
         </nav>
     </header>
              <main> 
                 <div class="centro-infor color">
-                    <h2 class="">Fale connosco</h2>
+                    <h2 class="">Zona de Ajuda<span class="azul">!</span></h2>
                 </div>
                     <section class="centrol">
                             <div class="central-zona zona-esquerdo">
-                                <h2>Todos os nossos contactos estão disponiveis 24 horas ao dia, todas as reclamações ou qual quer tipo de dúvida contacte o call-center <b> 945-962-145 </b> para receber suporte e ajuda.</h2>
-                                <p> Para mais informações sobre os suporte e ajuda <a href="ajuda.html">clique aqui.</a></p>
+                                <h2>Para ser solucionado  qualquer dos seus problemas, nós temos a linha de atendimento diário 24 horas ao dia <b> 945-962-145 </b> para receber suporte e ajuda.</h2>
+                                <p> Você também pode resolver todos os seus prolemas enviando mensagens de ajuda para o nosso correio electrônico <span class="azul">nobre_ajuda@gmail.com</span></a></p>
                                     
                             </div>
                             <div class="central-zona zona-direito">
-                                            <h2 >Todos os nossos contactos e redes sociais</h2>
-
-                                            <ul>
-                                                <li> Facebook:<a href="#"> Nobre Fashion</a></li>
-                                                <li> Correio Electrónico:<a href="#"> nobrefashion@gmail.com</a></li>
-                                                <li><a href="#"> WhatsApp </a></li>
-                                                <li>Linha de atendimento: <a href="#"> 945-962-145 </a></li>
-                                                <li> <a href="#"> Telegram </a></li>
-                                            </ul>
-                                                                        
+                                            <h2 >Assista este vídeos e elimine dúvidas</h2>
+                                        <video controls loop class="video_infor">
+                                            <source src="videos/ajuda.mp4" type="video/mp4">
+                                        </video>                            
                             </div>
                     </section>
              </main>       
@@ -74,8 +81,8 @@
                 <section class="rodape-zona">
                         <div class="rodape">
                                 <ol class="links-em-linha">
-                                <h4> </h4>
-                                </ol>
+                                <h4></h4>
+                            </ol>
                         </div>
                         <div class="rodape central">
                             <div class="control">
@@ -91,7 +98,7 @@
                                 <h4> Agora </h4>
                                     <li> <a  href="#">Inovações</a></li>
                                     <li> <a  href="#">Actualidades</a></li>
-                                    <li> <a  href="#">Novos nos</a></li>
+                                    <li> <a  href="#">Novos</a></li>
                                     <li> <a  href="#">Criatividade</a></li>
                             </ol>
                             <ol class="links-em-linha">
